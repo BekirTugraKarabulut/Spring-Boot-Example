@@ -9,5 +9,4 @@ public interface KullaniciRepository extends JpaRepository<Kullanici,String> {
 
     Kullanici findByEmail(String email);
 
-
 }
